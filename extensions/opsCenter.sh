@@ -31,7 +31,7 @@ done
 pip install requests
 
 release="5.5.4"
-wget https://github.com/DSPN/install-datastax-ubuntu/archive/$release.zip
+wget https://github.com/mskuba/install-datastax-ubuntu/archive/$release.zip
 unzip $release.zip
 cd install-datastax-ubuntu-$release/bin
 
